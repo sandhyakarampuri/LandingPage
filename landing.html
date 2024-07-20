@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Wildlife Photography Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('background.jpg'); /* Add this line */
+            background-size: cover; /* Adjusts the image size to cover the entire background */
+            background-position: center; /* Centers the image */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+        }
+
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 50px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.2em;
+            background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        header h2 {
+            font-size: 1.5em;
+            margin-bottom: 0.5em;
+            color: #000;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        header p {
+            font-size: 1em;
+            color: #7f8c8d;
+            margin-bottom: 1.5em;
+        }
+
+        .join-us-button {
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .join-us-button button {
+            background-color: #000080; /* Navy Blue */
+            color: #fff; /* White */
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.1s;
+        }
+
+        .join-us-button button:hover {
+            background-color: #0000cd; /* Medium Blue */
+        }
+
+        .join-us-button button:active {
+            background-color: #00008b; /* Darker Navy Blue */
+            transform: scale(0.95);
+        }
+
+        nav {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #191970;
+            font-weight: bold;
+            font-size: 1em;
+            padding: 10px 15px;
+            border-radius: 5px;
+            background-color: #FFFACD;
+            border: 2px solid #FFFACD;
+            transition: background-color 0.3s, border-color 0.3s, transform 0.1s;
+        }
+
+        nav ul li a:hover {
+            background-color: #FFEBCD;
+            border-color: #FFEBCD;
+        }
+
+        nav ul li a:active {
+            background-color: #FFD700;
+            border-color: #FFD700;
+            transform: scale(0.95);
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            header h2 {
+                font-size: 1.2em;
+            }
+
+            header p {
+                font-size: 0.9em;
+            }
+
+            nav ul li a {
+                font-size: 0.9em;
+                padding: 8px 12px;
+            }
+
+            .join-us-button button {
+                font-size: 1em;
+                padding: 12px 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#signup">Sign Up</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <header>
+            <h1>Nature's Splendor</h1>
+            <h2>A photographic journey into nature's heart</h2>
+            <p>Experience the untamed beauty of nature with our wildlife photography. Capturing the essence of animals in their natural habitats, our images bring you closer to the raw, unfiltered moments of the wild. Discover the majestic, the elusive, and the awe-inspiring through our lens.</p>
+            <div class="join-us-button">
+                <button>Join Us</button>
+            </div>
+        </header>
+    </div>
+</body>
+</html>
